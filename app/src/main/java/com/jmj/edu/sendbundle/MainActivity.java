@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         Bundle bundle = new Bundle();
-        bundle.putString("BundleName", text + " \n " + text1);
+        bundle.putString("BundleName", "TextView Value: " + text + " \n Button Info: " + text1);
         Intent intent = new Intent(this, Main2Activity.class);
         intent.putExtras(bundle);
         startActivity(intent);

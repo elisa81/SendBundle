@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="BUNDLE MESSAGE:"
+            android:text="Second Activity"
             android:textSize="30sp" />
 
         <TextView
@@ -25,6 +25,12 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send2" />
 
     </LinearLayout>
 
